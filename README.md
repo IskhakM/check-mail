@@ -13,9 +13,11 @@
 ```
 2. Создайте файл .env в корневой папке (на основе .env.example) и укажите ваши данные:
 
-API_TOKEN — токен вашего бота из @BotFather.
+```bash 
+    API_TOKEN — токен вашего бота из @BotFather.
 
-USER_ID — ваш цифровой ID из @userinfobot.
+    USER_ID — ваш цифровой ID из @userinfobot.
+```
 
 3. Запуск скриптов
 Валидация почты: Проверяет наличие MX-записей и выполняет SMTP-handshake.
