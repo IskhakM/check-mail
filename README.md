@@ -7,11 +7,21 @@
 ## 1. Инструкция по запуску
 
 ### Подготовка
-1. Установите зависимости:
+1. Создайте и активируйте виртуальное окружение:
+```bash
+   python -m venv venv
+   source venv/bin/activate  # для Linux/macOS
+   venv\Scripts\activate     # для Windows
+```
+2. Установите зависимости:
 ```bash
    pip install -r requirements.txt
 ```
-2. Создайте файл .env в корневой папке (на основе .env.example) и укажите ваши данные:
+3. Установите зависимости:
+```bash
+   pip install -r requirements.txt
+```
+4. Создайте файл .env в корневой папке (на основе .env.example) и укажите ваши данные:
 
 ```bash 
     API_TOKEN — токен вашего бота из @BotFather.
@@ -19,7 +29,7 @@
     USER_ID — ваш цифровой ID из @userinfobot.
 ```
 
-3. Запуск скриптов
+5. Запуск скриптов
 Валидация почты: Проверяет наличие MX-записей и выполняет SMTP-handshake.
 
 ``` Bash
